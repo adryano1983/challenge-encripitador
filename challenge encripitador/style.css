@@ -1,0 +1,117 @@
+* {
+    background:lightblue;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+   
+}
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 1em;
+}
+
+main {
+display:flex;
+margin-bottom: 50px;
+margin-left: 80px;
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 80px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871;}
+        .text-area:focus {
+            outline: none;
+}
+
+.mensagens {
+    background:#d9eef388;
+    background-size: 100px;
+    background-image: url(imagens/comunicacao.png);
+    background-repeat: no-repeat;
+    background-position:center;  
+    border: none;
+    border-radius: 10px;    
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position:fixed;
+}
+
+
+.mensagens:focus{
+      outline: none;    
+
+
+}
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    
+    
+}
+
+.btn-cripitar {
+    background: orange;
+    color:black;
+    border: 1px solid;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    margin-top: 100px;
+    margin-inline: 10px;
+    width: 338px;
+	font-size: 24px;
+	border: none;
+	transition: 1s;
+    box-shadow: inset 0 0 5px black;
+}
+
+.btn-desencriptar{
+    background: orange;
+    color: black;
+    border: 1px solid;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    margin-top: 100px;
+    width: 338px;	
+	font-size: 24px;
+	border: none;
+	transition: 1s;
+    box-shadow: inset 0 0 5px black;
+}
+.btn-copiar {
+    background: orange;
+    color:black;
+    border: 1px solid;
+    border-radius: 24px;
+    border: none;
+    margin-left: 120px;
+    margin-top: 450px;
+    position: absolute;
+    width: 336px;
+	font-size: 24px;
+    cursor: pointer;
+	transition: 1s;
+    box-shadow: inset 0 0 5px black;
+
+}
+
+
+
+@media screen and (max-width: 480px) {}
+ 
+
+    
+    
+
+
+
